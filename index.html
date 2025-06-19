@@ -4,21 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
+    <style>
+            .img01{
+                height: auto;
+                width: 20%;
+            }
+            nav ul{
+                list-style: none;
+                display: flex;
+                padding: 5px;
+                gap: 20px;
+            }
+            nav a{
+                text-decoration: none;
+                color: rgb(244, 241, 241);
+                padding: 8px 10px;
+                display: flex;
+            }
+            .divconte{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0 auto;
+                padding: 10px;
+            }
+            header{
+                background-color: rgb(37, 37, 48);
+                border-radius: 10px;
+                box-shadow: 0 0 10px red;
+            }
+    </style>
 </head>
 <body>
    <header>
+       <div class="divconte">
         <div>
-                <div>
-                <img src="/imagen/photo.jpg" alt="">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Nosotros</a></li> 
-                    <li><a href="#">Informacion</a></li>
-                    <li><a href="#">Contacto</a></li>
-
-                </ul>
+                <img class="img01" src="/imagen/photo.jpg" alt="">
+        </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Nosotros</a></li> 
+                        <li><a href="#">Informacion</a></li>
+                        <li><a href="#">Contacto</a></li>
+                     </ul>
             </nav>
         </div>
    </header>
